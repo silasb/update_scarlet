@@ -1,0 +1,6 @@
+#!/bin/bash
+
+update_script_path="http://opensource.osu.edu/~barondas/update.bash"
+
+echo "Downloading up script"
+bash -c "$(wget -qO- $update_script_path)"

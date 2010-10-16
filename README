@@ -1,0 +1,10 @@
+Allows scarlet team to update our rails app with these scripts:
+
+    src/update.bash
+
+This is the master script that will get downloaded an ran.  If we need to modify how we update our application then this is what we would change.
+
+    src/update_scarlet
+
+This is a script that is ran from the end-users point of view.
+
